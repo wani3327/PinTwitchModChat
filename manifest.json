@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Fix Twitch Manager Chat",
+    "short_name": "Fix Mgr Chat",
+    "version": "0.1.0",
+    "version_name": "alpha 1.0",
+
+    // "default_locale": "kr",
+    "decription": "Fix Manager Chat on Twitch.",
+    "author": "Jibago",
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["script.js"]
+        }
+    ]
+
+}
